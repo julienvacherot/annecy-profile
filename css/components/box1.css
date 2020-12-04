@@ -1,0 +1,29 @@
+.box1{
+	margin: 40px;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0px 15px 35px rgba(50,50,93,0.15);
+	height: 840px;
+}
+
+
+#box1gauche{
+	float: left;
+	width: 520px;
+}
+
+#box1droite{
+	float: right;
+	width: 520px;
+
+}
+
+#box1image{
+	text-align: center;
+}
+
+#annecy1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

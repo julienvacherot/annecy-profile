@@ -1,0 +1,29 @@
+.box2{
+	margin: 40px;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0px 15px 35px rgba(50,50,93,0.15);
+	height: 670px
+}
+
+
+#box2gauche{
+	float: left;
+	width: 520px;
+}
+
+#box2droite{
+	float: right;
+	width: 520px;
+}
+
+
+#annecy4{
+	display: block;
+	margin: auto;
+}
+
+#annecy5{
+	display: block;
+	margin: auto;
+}

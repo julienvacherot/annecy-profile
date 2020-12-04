@@ -1,0 +1,30 @@
+.box4{
+	margin: 40px;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0px 15px 35px rgba(50,50,93,0.15);
+	height: 400px
+}
+
+#box4gauche{
+	float: left;
+	width: 600px;
+}
+
+#box4droite{
+	float: right;
+	width: 400px;
+}
+
+#reseau{
+	list-style: none;
+}
+
+#reseau li{
+	display: inline;
+	padding: 10px;
+}
+
+#reseau i{
+	font-size: 70px;
+}

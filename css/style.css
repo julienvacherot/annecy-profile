@@ -1,0 +1,354 @@
+@import url("components/box1.css");
+@import url("components/box2.css");
+@import url("components/box3.css");
+@import url("components/box4.css");
+@import url("components/presentation.css");
+@import url("components/top.css");
+
+h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 60px;
+	color: #302f2f;		
+	letter-spacing:2px;
+	text-align: center;
+	padding-top: 40px;
+	}
+
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 35px;
+	letter-spacing: 2px;
+	color: #302f2f;		
+	text-align: center;
+	}
+
+.text{
+	font-size: 16px;
+	color: #302f2f;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	line-height: 1.3;
+	}
+		
+a{
+	text-decoration: none;
+	color: #495464;
+	font-weight: bold;
+	transition: color 0.5s ease;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+
+a:hover{
+	color:#1c2b2d;
+	}
+
+@media (max-width: 960px){
+	#annecy{
+		height: 400px
+	}
+
+	#annecy1{
+		height: 250px;
+	}
+
+	#annecy4{
+		height: 300px;
+	}
+
+	#annecy5{
+		height: 350px;
+	}
+
+	#annecy6{
+		height: 210px;	
+	}
+
+	.presentation{
+		width: 540px;
+	}
+	
+	.box1 {
+		height: 1590px;
+		width: 560px;
+	}
+
+	#box1gauche{
+		width: 560px;
+	}
+
+	#box1droite{
+		width: 560px;
+		margin-left: -40px;
+	}
+
+	.box2 {
+		height: 1300px;
+		width: 560px;
+	}
+
+	#box2gauche{
+		width: 560px;
+	}
+
+	#box2droite{
+		width: 560px;
+	}
+
+	.box3 {
+		height: 600px;
+		width: 560px;
+	}
+
+	.box4 {
+		height: 500px;
+		width: 560px;
+	}
+
+	#titre{
+		font-size: 50px;
+	}
+
+	#logo{
+		height: 80px;
+		margin-left: 10px;
+	}
+
+	#logohaute{
+		height: 80px;
+		margin-right: 10px;
+	
+	}
+
+	.embedresize {
+		max-width: 720px;
+		margin: auto;
+	}
+
+	.embedresize div {
+		position: relative;
+		height: 0;
+		margin-right: 100px;
+
+	}
+
+	.embedresize iframe {
+		width: 90%;
+		height:90%;
+		margin-right: 100px;
+	}
+
+	#reseau i{
+		font-size: 60px;
+	
+	}
+}
+
+@media (max-width: 720px){
+
+	#annecy{
+		height: 290px
+		text-align: center;
+	}
+
+	#annecy1{
+		height: 180px;
+	}
+
+	#annecy4{
+		height: 250px;
+	}
+
+	#annecy5{
+		height: 290px;
+	}
+
+	#annecy6{
+		height: 170px;	
+	}
+
+	.presentation{
+		width: 430px;
+	}
+	
+	.box1 {
+		height: 2000px;
+		width: 450px;
+	}
+
+	#box1gauche{
+		width: 450px;
+	}
+
+	#box1droite{
+		width: 450px;
+		margin-left: 100px;
+	}
+
+	.box2 {
+		height: 1250px;
+		width: 450px;
+	}
+
+	#box2gauche{
+		width: 450px;
+	}
+
+	#box2droite{
+		width: 450px;
+	}
+
+	.box3 {
+		height: 600px;
+		width: 450px;
+	}
+
+	.box4 {
+		height: 500px;
+		width: 450px;
+		text-align: center;
+	}
+
+	#titre{
+		font-size: 40px;
+		text-align: center;
+	}
+
+	#logo{
+		height: 80px;
+		margin-left: 10px;
+	}
+
+	#logohaute{
+		height: 70px;
+		margin-right: 10px;
+	
+	}
+
+	.embedresize div {
+		position: relative;
+		height: 0;
+	}
+
+	.embedresize iframe {
+		width: 60%;
+		height:50%;
+		margin-right: 150px;
+	}
+
+	#reseau i{
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 540px){
+	#annecy{
+		height: 290px
+	}
+
+	#annecy1{
+		height: 170px;
+	}
+
+	#annecy4{
+		height: 170px;
+	}
+
+	#annecy5{
+		height: 200px;
+	}
+
+	#annecy6{
+		height: 110px;	
+	}
+
+	.presentation{
+		width: 300px;
+	}
+	
+	.box1 {
+		height: 2450px;
+		width: 300px;
+	}
+
+	#box1gauche{
+		width: 300px;
+	}
+
+	#box1droite{
+		width: 300px;
+		margin-left: 220px;
+	}
+
+	#box1image{
+		width: 300px;
+	}
+
+	.box2 {
+		height: 1330px;
+		width: 300px;
+	}
+
+	#box2gauche{
+		width: 300px;
+	}
+
+	#box2droite{
+		width: 300px;
+	}
+
+	.box3 {
+		height: 650px;
+		width: 300px;
+	}
+
+	.box4{
+		height: 600px;
+		width: 300px;
+	}
+	#box4gauche {
+		width: 300px;
+	}
+
+	#box4droite {
+		width: 300px;
+	}	
+
+	#titre{
+		font-size: 35px;
+		text-align: center;
+	}
+
+	#logo{
+		height: 60px;
+		margin-left: 7px;
+	}
+
+	#logohaute{
+		height: 60px;
+		margin-right: 7px;
+	
+	}
+
+	.embedresize {
+		max-width: 560px;
+		margin: auto;
+	}
+
+	.embedresize div {
+		position: relative;
+		height: 0;
+		padding-bottom: 56.25%;
+	}
+
+	.embedresize iframe {
+
+		left: 80px;
+		width: 100%;
+		height:100%;
+	}
+
+	#reseau i{
+		font-size: 40px;
+	}
+}
+

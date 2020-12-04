@@ -1,0 +1,11 @@
+.box3{
+	margin: 40px;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0px 15px 35px rgba(50,50,93,0.15);
+}
+
+#annecy6{
+	display: block;
+	margin: auto;
+}
